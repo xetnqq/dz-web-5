@@ -1,7 +1,7 @@
 function convertToImages() {
     var text = document.getElementById("source-text").value;
     var resultText = document.getElementById("result-text");
-    resultText.innerHTML = ""; // Очищення результатів при кожному конвертуванні
+    resultText.innerHTML = "";
 
     for (var i = 0; i < text.length; i++) {
         var image = document.createElement("img");
